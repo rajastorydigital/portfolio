@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gallery | Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="animated fadeIn">
+<!-- Navbar code begin -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img src="images/logo.png" width="150" height="50" alt="Logo">
+              </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                          <a class="nav-link ls-2 fs-16 text-muted wow animated fadeInUp" href="index.html" data-wow-duration="2s" data-wow-delay="0.3s">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link ls-2 fs-16 text-muted wow animated fadeInUp" href="about.html" data-wow-duration="2s" data-wow-delay="0.8s">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link ls-2 fs-16 text-muted wow animated fadeInUp" href="services.html" data-wow-duration="2s" data-wow-delay="1.2s">Services</a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link ls-2 fs-16 text-muted wow animated fadeInUp" href="portfolio.html" data-wow-duration="2s" data-wow-delay="1.6s">Portfolio<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link ls-2 fs-16 text-muted wow animated fadeInUp" href="contact.html" data-wow-duration="2s" data-wow-delay="1.9s">Contact</a>
+                        </li>
+                      </ul>
+          </div>
+        </div>
+      </nav>
+<!-- Navbar code end -->
+
+<div class="container-fluid black-bg text-center portfolio-container">
+    <div class="row">
+        <div class="col-md-4 mx-auto shadow wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.3s">
+            <h4 class="fw-700 fs-30 title-gray mb-3">Website Designs</h4>
+            <img src="images/web-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+            <br>
+            <button class="btn btn-secondary mx-auto portfolio-button btn-block" data-toggle="modal" data-target="#website">More</button>
+        </div>
+        <div class="col-md-4 mx-auto shadow wow fadeInRight" data-wow-duration="2s" data-wow-delay="0.8s">
+            <h4 class="fw-700 fs-30 title-gray mb-3">Mobile App Designs</h4>
+            <img src="images/apps-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+            <button class="btn btn-secondary mx-auto btn-block portfolio-button" data-toggle="modal" data-target="#apps">More</button>
+        </div>
+        <div class="col-md-4 mx-auto shadow wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.2s">
+            <h4 class="fw-700 fs-30 title-gray mb-3">Landing Page Designs</h4>
+            <img src="images/web-ui-2.jpg" class="img-fluid" height="200" alt="Website">
+            <button class="btn btn-secondary mx-auto btn-block portfolio-button" data-toggle="modal" data-target="#landing">More</button>
+        </div>
+    </div>
+</div>
+
+
+ <!-- The Modal Website -->
+ <div class="modal fade" id="website">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <!-- <h4 class="modal-title">Websites</h4> -->
+          <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+          <img src="images/close-button.png" alt="close button" class="fa fa-window-close-o close" data-dismiss="modal">
+          <!-- <i class="fa fa-window-close-o close" data-dismiss="modal" aria-hidden="true"></i> -->
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body text-center">
+            <div class="row">
+                <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                    <h4 class="fw-700 fs-30 title-gray mb-3">Apple</h4>
+                    <img src="images/web-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                    <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                </div>
+                <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUpUp">
+                    <h4 class="fw-700 fs-30 title-gray mb-3">Orange</h4>
+                    <img src="images/apps-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                    <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                </div>
+                <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                    <h4 class="fw-700 fs-30 title-gray mb-3">Mango</h4>
+                    <img src="images/web-ui-2.jpg" class="img-fluid" height="200" alt="Website">
+                    <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                    <h4 class="fw-700 fs-30 title-gray mb-3">Apple</h4>
+                    <img src="images/web-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                    <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                </div>
+                <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                    <h4 class="fw-700 fs-30 title-gray mb-3">Orange</h4>
+                    <img src="images/apps-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                    <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                </div>
+                <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                    <h4 class="fw-700 fs-30 title-gray mb-3">Mango</h4>
+                    <img src="images/web-ui-2.jpg" class="img-fluid" height="200" alt="Website">
+                    <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                    <h4 class="fw-700 fs-30 title-gray mb-3">Apple</h4>
+                    <img src="images/web-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                    <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                </div>
+                <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                    <h4 class="fw-700 fs-30 title-gray mb-3">Orange</h4>
+                    <img src="images/apps-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                    <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                </div>
+                <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                    <h4 class="fw-700 fs-30 title-gray mb-3">Mango</h4>
+                    <img src="images/web-ui-2.jpg" class="img-fluid" height="200" alt="Website">
+                    <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                </div>
+            </div>
+            
+        </div>
+      
+        
+      </div>
+    </div>
+  </div>
+ 
+ <!-- The Modal MobilApps -->
+ 
+ <div class="modal fade" id="apps">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <!-- <h4 class="modal-title">Websites</h4> -->
+              <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+              <img src="images/close-button.png" alt="close button" class="fa fa-window-close-o close" data-dismiss="modal">
+              <!-- <i class="fa fa-window-close-o close" data-dismiss="modal" aria-hidden="true"></i> -->
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body text-center">
+                <div class="row">
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Apple</h4>
+                        <img src="images/web-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Orange</h4>
+                        <img src="images/apps-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Mango</h4>
+                        <img src="images/web-ui-2.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Apple</h4>
+                        <img src="images/web-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Orange</h4>
+                        <img src="images/apps-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Mango</h4>
+                        <img src="images/web-ui-2.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Apple</h4>
+                        <img src="images/web-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Orange</h4>
+                        <img src="images/apps-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Mango</h4>
+                        <img src="images/web-ui-2.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                </div>
+                
+            </div>
+          
+            
+          </div>
+        </div>
+      </div>
+
+   <!-- The Modal Landing Page -->
+    
+ <div class="modal fade" id="landing">
+        <div class="modal-dialog modal-xl">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <!-- <h4 class="modal-title">Websites</h4> -->
+              <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+              <img src="images/close-button.png" alt="close button" class="fa fa-window-close-o close" data-dismiss="modal">
+              <!-- <i class="fa fa-window-close-o close" data-dismiss="modal" aria-hidden="true"></i> -->
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body text-center">
+                <div class="row">
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Apple</h4>
+                        <img src="images/web-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Orange</h4>
+                        <img src="images/apps-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Mango</h4>
+                        <img src="images/web-ui-2.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Apple</h4>
+                        <img src="images/web-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Orange</h4>
+                        <img src="images/apps-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Mango</h4>
+                        <img src="images/web-ui-2.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Apple</h4>
+                        <img src="images/web-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Orange</h4>
+                        <img src="images/apps-ui-1.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                    <div class="col-md-3 mx-auto shadow website-modal-box wow fadeInUp">
+                        <h4 class="fw-700 fs-30 title-gray mb-3">Mango</h4>
+                        <img src="images/web-ui-2.jpg" class="img-fluid" height="200" alt="Website">
+                        <button class="btn btn-secondary mx-auto portfolio-button btn-block">View</button>
+                    </div>
+                </div>
+                
+            </div>
+          
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid pt-2 footer bg-black fixed-bottom wow fadeInUp">
+            <h6 class="text-center fs-14 title-gray">Designed By Raja Thavamani.</h6>
+        </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script>
+$(function(){
+  new WOW().init(); 
+});
+</script>
+</body>
+</html>
